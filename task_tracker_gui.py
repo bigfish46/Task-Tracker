@@ -90,7 +90,7 @@ class TaskTrackerGUI:
         # Entry styling
         self.style.configure("TEntry", 
                            fieldbackground=self.entry_bg,
-                           foreground='black',
+                           foreground='black',  # Ensure text is black
                            padding=8)  # Added padding
         
         # Configure root grid
@@ -198,7 +198,7 @@ class TaskTrackerGUI:
             self.task_name.delete(0, tk.END)
             self.due_date.delete(0, tk.END)
             
-            # Refresh display
+            # Refresh display immediately
             self.refresh_task_list()
             
         except ValueError as e:
@@ -228,6 +228,7 @@ class TaskTrackerGUI:
             
             removed_task = self.manager.remove_task(task_idx)
             if removed_task:
+                # Refresh display immediately
                 self.refresh_task_list()
 
     def refresh_task_list(self):
