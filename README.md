@@ -15,7 +15,7 @@ First use of Cursor AI.
 - Desktop installer available
 
 ## Install
-Download the AFISH_Task_Tracker_Setup.exe and run as admin
+Navigate to Output folder for *setup.exe to download and run
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details. 
