@@ -1,6 +1,7 @@
 # AFISH Task Tracker
 
 A modern, Windows 11-styled task tracking application built with Python and Tkinter.
+First use of Cursor AI. 
 
 ## Features
 
