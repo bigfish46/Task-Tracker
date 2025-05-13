@@ -13,6 +13,8 @@ A modern, Windows 11-styled task tracking application built with Python and Tkin
 - Data persistence using JSON storage
 - Desktop installer available
 
+## Install
+Download the AFISH_Task_Tracker_Setup.exe and run as admin
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details. 
